@@ -99,7 +99,7 @@ simple_commands += [abbreviations[x] for x in simple_commands]
 kick_commands += [abbreviations[x] for x in kick_commands]
 ban_commands += [abbreviations[x] for x in ban_commands]
 forward_commands += [abbreviations[x] for x in forward_commands]
-all_commands = list(bbreviations.keys()) + list(abbreviations.values())
+all_commands = list(abbreviations.keys()) + list(abbreviations.values())
 ban_sentinel = '!'
 
 debug = os.path.exists(os.path.join(xchat.get_info('xchatdir'), 'chanserv.py-debug'))
